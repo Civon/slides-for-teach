@@ -1,4 +1,4 @@
-# Reavel.js slide gnerator
+# Reavel.js slide gernator
 <!-- FIXME: slide.md become hyper-link auto, which is not i wanted -->
 ## Origin code fork from [wl00887404@github](wl00887404.github.io)
 
