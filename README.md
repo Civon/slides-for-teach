@@ -20,6 +20,6 @@ yarn md <arg>
 first vertical slides stack will gernate by html in [Template](./template) floder,
 if not set in setting.json in each sub-floder as below type.
 ```json 
-template: "jenny.html"
+"template": "jerry"
 ```
 then, will auto gernate by //template/default.html 
