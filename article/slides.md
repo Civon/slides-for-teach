@@ -12,9 +12,11 @@
 
 ---     
 ##   Why Clean Code 
+<div style = "text-align: center; margin-top: 1em">
 	“
 	      程式碼寫給誰看？ 
 	   			” 
+</div>  
 
 ---   
 
