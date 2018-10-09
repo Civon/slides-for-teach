@@ -47,13 +47,10 @@
 ---  
   
 ![bl](./black-quation.jpg)  
-  
-<!-- track ball -->  
 
 ---  
 
 ``` java  
-
 
 // bad  
 String a = "Hello";  
@@ -77,7 +74,7 @@ for (row = 0; row < 3; row++ ){
   
 {{{  
   
-##  格式對齊  
+## 格式對齊  
 
 }}}  
   
@@ -86,9 +83,10 @@ for (row = 0; row < 3; row++ ){
 不要變魔術
 
 ```js
-// this is a swap
+// swap foo & bar
 foo = 2;
 bar = 3;
+
 // bad
 foo ^= bar ^= foo ^= bar ;  
 
