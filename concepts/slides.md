@@ -34,8 +34,7 @@
 <!-- the vote chart of hardest thing in coding  put last? -->
 
 }}}  
-   
-
+   \
 {{{  
   
 ## 命名東西  
@@ -46,9 +45,10 @@
 ---  
   
 ![](./black-quation.jpg)  
-   
+
 ---   
-  
+   
+
 ```java  
 //	bad  
 String a = "Hello";  
@@ -66,9 +66,9 @@ for (row = 0; row < 3; row++ ){
 	}  
 }  
 ```  
-
-}}}   
   
+}}}   
+   \
 {{{    
 
 不要變魔術
