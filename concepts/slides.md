@@ -43,12 +43,11 @@
   
 
 ---  
-  
-![](./black-quation.jpg)  
+    
+![](./black-quation.jpg)    
 
----   
-   
-
+---     
+    
 ```java  
 //	bad  
 String a = "Hello";  
@@ -61,14 +60,14 @@ for (i = 0; i < 3; i++ ){
 //	good  
 String greet = "Hello";  
 for (row = 0; row < 3; row++ ){  
-	for (column = 0; column < 3; column++){  
-		//	do something  
-	}  
+	for (column = 0; column < 3; column++){    
+        //	do something  
+	}    
 }  
-```  
-  
+```    
+    
 }}}   
-   \
+    \
 {{{    
 
 不要變魔術
