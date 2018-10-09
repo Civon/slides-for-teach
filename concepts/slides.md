@@ -29,8 +29,46 @@
    
 ---  
 
-增進理解，養成好習慣  
+增進理解，養成好習慣   
+    
+<!-- the vote chart of hardest thing in coding  put last? -->     
+    
+}}}  
+   \
+{{{  
+  
+## 命名東西  
 
+永遠是最難的部分  
+  
+
+---  
+    
+![](./black-quation.jpg)    
+
+---     
+    
+```java  
+//	bad  
+<!-- the vote chart of hardest thing in coding  put last? -->
+
+}}}  
+   \
+{{{  
+  
+## 命名東西  
+
+永遠是最難的部分  
+  
+
+---  
+    
+![](./black-quation.jpg)    
+
+---     
+    
+```java  
+//	bad  
 <!-- the vote chart of hardest thing in coding  put last? -->
 
 }}}  
