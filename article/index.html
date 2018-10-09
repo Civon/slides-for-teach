@@ -45,10 +45,46 @@
                     </div>
                 </section>
             </section>
-            <section><section><h1>test md gen</h1>
-<p>title of json is ok</p></section><section><h1>section</h1>
-<p>--</p>
-<h1>hor sec</h1></section><section></section></section>
+            <section><section><h1>Coding Style  (Clean Code)</h1>
+<ul>
+<li>naming variable</li>
+<li>fortmat aligan</li>
+<li>variable case</li>
+<li>easy to understand</li>
+<li>comment &amp; doc</li>
+<li>use tools as well</li>
+<li>do not afraid debug, enjoy it!</li>
+</ul></section><section><h2>Why Clean Code</h2>
+<pre><code>“
+      程式碼寫給誰看？ 
+   			” 
+</code></pre></section><section><div style="font-size:1.5em;">
+    <h1>人</h1>
+</div></section></section><section><section><h2>變數命名</h2>
+<pre><code class="hljs"><div class="num"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span></div><div class="code"><span class="hljs-comment">//	bad</span>
+String a = <span class="hljs-string">"Hello"</span>;
+<span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">3</span>; i++ ){
+	<span class="hljs-keyword">for</span> (j = <span class="hljs-number">0</span>; j &lt; <span class="hljs-number">3</span>; j++){
+		<span class="hljs-comment">//	do something</span>
+	}
+}
+
+<span class="hljs-comment">//	good</span>
+String greet = <span class="hljs-string">"Hello"</span>;
+<span class="hljs-keyword">for</span> (row = <span class="hljs-number">0</span>; row &lt; <span class="hljs-number">3</span>; row++ ){
+	<span class="hljs-keyword">for</span> (column = <span class="hljs-number">0</span>; column &lt; <span class="hljs-number">3</span>; column++){
+		<span class="hljs-comment">//	do something</span>
+	}
+}
+</div></code></pre>
+<pre><code>abbr. r =&gt; row	or  c =&gt; column   is acceptable
+</code></pre></section></section><section><section><p>不要變魔術</p>
+<pre><code class="hljs"><div class="num"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div><div class="code">a = <span class="hljs-number">2</span>;
+b = <span class="hljs-number">3</span>;
+
+a ^= b ^= a ^= b ;  <span class="hljs-comment">//swap</span>
+ 
+</div></code></pre></section></section>
         </div>
     </div>
 

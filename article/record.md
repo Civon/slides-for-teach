@@ -16,10 +16,10 @@
 + 表單
 
 #### knowladge part
-<!-- + git  -->
+<!-- + git  (都要有個帳號--> 
 + naming variable
 + coding style
-    - fortmate aligan
+    - fortmat aligan
     - variable case
     - easy to understand
     - comment & doc 
@@ -28,10 +28,11 @@
     - do not afraid debug, enjoy it!
 + tools:
     + vs code 
+        + auto-fillin
         + plug-ins
             + linting unit
         + shortcut
-        + functions 
+        + sidebar functions 
             + gits
             + debugger 
             + live-sharing
