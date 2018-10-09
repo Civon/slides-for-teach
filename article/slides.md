@@ -45,7 +45,7 @@ for (row = 0; row < 3; row++ ){
 	}  
 }     
 ```  
-	abbr. r => row	or  c => column   is acceptable     
+abbr. r => row	or  c => column   is acceptable     
 	
 
 }}}  
