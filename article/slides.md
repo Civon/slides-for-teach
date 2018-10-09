@@ -22,31 +22,6 @@
     <h1>人</h1>
 </div>	
 
-}}}  
-   \
-{{{  
-
-##  變數命名    
-  
-```java  
-// bad  
-String a = "Hello";  
-for (i = 0; i < 3; i++ ){  
-	for (j = 0; j < 3; j++){  
-		//	do something  
-	}  
-}    
-  
-// good  
-String greet ç= "Hello";    
-for (row = 0; row < 3; row++ ){  
-	for (column = 0; column < 3; column++){  
-		//	do something  
-	}  
-}     
-```  
-abbr. r => row	or  c => column   is acceptable     
-	
 
 }}}  
   
