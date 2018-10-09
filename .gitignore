@@ -57,3 +57,6 @@ yarn.lock
 
 # dotenv environment variables file
 .env
+
+# md bug of gitpage
+*.md
