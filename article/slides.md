@@ -1,13 +1,16 @@
 {{{   
   
-# Coding Style  (Clean Code)
+# Coding Style  
+## ( Clean Code )  
+
+---    
 
 - naming variable
-- fortmat aligan
+- fortmat align
 - variable case
 - easy to understand
 - comment & doc 
-- use tools as well
+- use tools as well  
 - do not afraid debug, enjoy it!
 
 ---     
@@ -23,7 +26,8 @@
 <div style="font-size:1.5em;">
     <h1>人</h1>
 </div>	
-
+  
+<!-- the vote chart of hardest thing in coding   -->
 
 }}}  
   
@@ -31,6 +35,13 @@
   
 ## 變數命名
   
+---  
+永遠是最難的部分  
+fragment   
+黑人問號圖  
+
+---   
+
 ```java  
 //	bad  
 String a = "Hello";  
@@ -41,14 +52,14 @@ for (i = 0; i < 3; i++ ){
 }  
   
 //	good  
-String greet ç= "Hello";  
+String greet = "Hello";  
 for (row = 0; row < 3; row++ ){  
 	for (column = 0; column < 3; column++){  
 		//	do something  
 	}  
 }  
-```
-	abbr. r => row	or  c => column   is acceptable  
+```  
+
 
 }}}   
   
