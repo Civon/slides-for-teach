@@ -11,7 +11,7 @@
 - easy to understand
 - comment & doc 
 - use tools as well  
-- do not afraid debug, enjoy it!
+- don't afraid debug, enjoy it!
 
 ---     
 ##   Why Clean Code 
@@ -26,19 +26,22 @@
 <div style="font-size:1.5em;">
     <h1>人</h1>
 </div>	
-  
-<!-- the vote chart of hardest thing in coding   -->
+   
+---  
+
+增進理解，養成好習慣  
+
+<!-- the vote chart of hardest thing in coding  put last? -->
 
 }}}  
   
 {{{  
   
-## 變數命名
-  
+## 命名東西  
+永遠是最難的部分    
+
 ---  
-永遠是最難的部分  
-fragment   
-黑人問號圖  
+![](./black-quation.jpg)
 
 ---   
 
@@ -60,12 +63,9 @@ for (row = 0; row < 3; row++ ){
 }  
 ```  
 
-
 }}}   
   
 {{{    
-
-
 
 不要變魔術
 
