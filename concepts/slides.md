@@ -2,7 +2,7 @@
   
 # Coding Style  
 
-## ( Clean Code )  
+Clean Code
 
 ---  
 
@@ -76,8 +76,51 @@ for (row = 0; row < 3; row++ ){
   
 ## 格式對齊  
 
+大家都要整整齊齊  
+
+---
+
+``` java
+public static void main(){
+    //  do somthing
+    //  align with same indent
+}
+
+// also  
+public static void main()
+{
+    //  do somthing
+    //  indent same
+}
+```
+
 }}}  
   
+{{{
+
+## 命名規則  
+
+規則、共識
+
+---
+
+- Cases:
+  - camelCase
+  - PascalCase
+  - kebab-case
+  - Snake_case
+- 共識:
+  - 依個語言而異
+  - ex:  
+
+``` java
+
+  const int EYES = 2;
+
+```
+
+}}}
+
 {{{  
 
 不要變魔術

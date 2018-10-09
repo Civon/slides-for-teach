@@ -46,7 +46,7 @@
                 </section>
             </section>
             <section><section><h1>Coding Style</h1>
-<h2>( Clean Code )</h2></section><section><ul>
+<p>Clean Code</p></section><section><ul>
 <li>naming variable</li>
 <li>fortmat align</li>
 <li>variable case</li>
@@ -80,7 +80,39 @@ String greet = <span class="hljs-string">"Hello"</span>;
   }  
 }  
 
-</div></code></pre></section></section><section><section><h2>格式對齊</h2></section></section><section><section><p>不要變魔術</p>
+</div></code></pre></section></section><section><section><h2>格式對齊</h2>
+<p>大家都要整整齊齊</p></section><section><pre><code class="hljs"><div class="num"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span></div><div class="code"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">//  do somthing</span>
+    <span class="hljs-comment">//  align with same indent</span>
+}
+
+<span class="hljs-comment">// also  </span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
+    <span class="hljs-comment">//  do somthing</span>
+    <span class="hljs-comment">//  indent same</span>
+}
+</div></code></pre></section></section><section><section><h2>命名規則</h2>
+<p>規則、共識</p></section><section><ul>
+<li>Cases:
+<ul>
+<li>camelCase</li>
+<li>PascalCase</li>
+<li>kebab-case</li>
+<li>Snake_case</li>
+</ul>
+</li>
+<li>共識:
+<ul>
+<li>依個語言而異</li>
+<li>ex:</li>
+</ul>
+</li>
+</ul>
+<pre><code class="hljs"><div class="num"><span>1</span><span>2</span><span>3</span></div><div class="code">
+  <span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> EYES = <span class="hljs-number">2</span>;
+
+</div></code></pre></section></section><section><section><p>不要變魔術</p>
 <pre><code class="hljs"><div class="num"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span></div><div class="code"><span class="hljs-comment">// swap foo &amp; bar</span>
 foo = <span class="hljs-number">2</span>;
 bar = <span class="hljs-number">3</span>;

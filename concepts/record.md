@@ -17,7 +17,7 @@
 
 #### knowladge part
 <!-- + git  (都要有個帳號--> 
-+ naming variable
++ naming something
 + coding style
     - fortmat aligan
     - variable case
@@ -43,3 +43,5 @@
     遇到不懂得，“專有名詞” ，套一句你們已經畢業的學長的話：『不用緊張、聽久了、用久了自然而然就會了』，啊英文不懂可以盡量問
     為避免衝突，不嬌ＯＯＰ   已scripting language 或更加直白的說 教你們 command on terminal(bash, cmd, powershell)    
     我需要會很多語言媽？ 不是都說要外語越多越好
+
+    https://code.visualstudio.com/docs/languages/java
