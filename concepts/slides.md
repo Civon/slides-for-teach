@@ -32,14 +32,13 @@
 增進理解，養成好習慣   
     
 <!-- the vote chart of hardest thing in coding  put last? -->     
-    
+     
 }}}  
-         
-
-{{{      
-
-             
+           
+           
+{{{     
         
+
 ## 命名東西    
     
 
@@ -96,4 +95,4 @@ bar = temp;
 ```
 
 
-}}}
+}}}    
