@@ -102,9 +102,10 @@ String greet = <span class="hljs-string">"Hello"</span>;
 <li>Snake_case</li>
 </ul>
 </li>
+</ul></section><section><ul>
 <li>共識:
 <ul>
-<li>依個語言而異</li>
+<li>依各語言而異</li>
 <li>ex:</li>
 </ul>
 </li>
@@ -112,7 +113,9 @@ String greet = <span class="hljs-string">"Hello"</span>;
 <pre><code class="hljs"><div class="num"><span>1</span><span>2</span><span>3</span></div><div class="code">
   <span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> EYES = <span class="hljs-number">2</span>;
 
-</div></code></pre></section></section><section><section><p>不要變魔術</p>
+</div></code></pre></section></section><section><section><h2>易於理解</h2>
+<p>程式是給人讀的</p></section><section><p>
+不要變魔術</p>
 <pre><code class="hljs"><div class="num"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span></div><div class="code"><span class="hljs-comment">// swap foo &amp; bar</span>
 foo = <span class="hljs-number">2</span>;
 bar = <span class="hljs-number">3</span>;
@@ -125,6 +128,16 @@ temp = foo;
 foo = bar;
 bar = temp;  
 
+</div></code></pre></section><section><pre><code class="hljs"><div class="num"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span></div><div class="code"><span class="hljs-comment">// reverse the string</span>
+String str = <span class="hljs-string">"hello"</span>;
+
+<span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>; i &lt; str.length / <span class="hljs-number">2</span>; i++)
+    swap(str.[i], str.[str.length - i - <span class="hljs-number">1</span>]);
+
+<span class="hljs-comment">// better</span>
+str.split(<span class="hljs-string">""</span>)
+      .reverse()
+        .join(<span class="hljs-string">""</span>);
 </div></code></pre></section></section>
         </div>
     </div>

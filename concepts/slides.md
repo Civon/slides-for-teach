@@ -108,9 +108,12 @@ public static void main()
   - camelCase
   - PascalCase
   - kebab-case
-  - Snake_case
+  - Snake_case  
+
+---
+
 - 共識:
-  - 依個語言而異
+  - 依各語言而異
   - ex:  
 
 ``` java
@@ -121,8 +124,14 @@ public static void main()
 
 }}}
 
-{{{  
+{{{
 
+## 易於理解  
+
+程式是給人讀的  
+
+---
+
 不要變魔術
 
 ```js
@@ -139,5 +148,26 @@ foo = bar;
 bar = temp;  
 
 ```
+
+---  
+
+``` java
+// reverse the string
+String str = "hello";
+
+for (i = 0; i < str.length / 2; i++)
+    swap(str.[i], str.[str.length - i - 1]);
+
+// better
+str.split("")
+      .reverse()
+        .join("");
+```
+
+}}}
+
+{{{  
+
+
 
 }}}  
