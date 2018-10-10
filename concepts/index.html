@@ -23,23 +23,23 @@
                 </section>
                 <section>
                     <div id="profile">
-                        <h3>政治</h3>
+                        <h3>鈞堯</h3>
                         <img src="../image/avatar.jpg" />
                     </div>
                     <div id="link">
-                        <a href="https://www.facebook.com/he.z.min.1" target="_blank">
+                        <a href="https://www.facebook.com/" target="_blank">
                             <img src="../image/facebook.svg" />
                         </a>
-                        <a href="mailto:wl00887404@gmail.com">
+                        <a href="mailto:a93242hakka@gmail.com">
                             <img src="../image/email.svg" />
                         </a>
-                        <a href="https://github.com/wl00887404" target="_blank">
+                        <a href="https://github.com/civon" target="_blank">
                             <img src="../image/github.png" />
                         </a>
-                        <a href="https://codepen.io/wl00887404/" target="_blank">
+                        <!-- <a href="https://codepen.io/wl00887404/" target="_blank">
                             <img src="../image/codepen.png" />
-                        </a>
-                        <a href="https://wl00887404.github.io" target="_blank">
+                        </a> -->
+                        <a href="https://chunyao.github.io" target="_blank">
                             <img src="../image/blog.svg" />
                         </a>
                     </div>
@@ -174,7 +174,181 @@ str.split(<span class="hljs-string">""</span>)
 </ul></section><section><h2>Git</h2>
 <p>版本控制</p>
 <p>---</p>
-<p><a href="https://backlog.com/git-tutorial/tw/">連猴子都懂得Git</a></p></section></section>
+<p><a href="https://backlog.com/git-tutorial/tw/">連猴子都懂得Git</a></p></section>
+
+
+<section class="stack present" style="top: 0px; display: block;" data-previous-indexv="1"><section style="top: 270px; display: block;" class="present"><h1>Git</h1></section><section class="future" style="top: 191.5px; display: block;" hidden="" aria-hidden="true"><h2>Get Started</h2>
+<pre><code class="hljs"><span class="hljs-comment"># 初始化一個版本庫</span>
+git init
+
+<span class="hljs-comment"># 複製遠端的本庫</span>
+git <span class="hljs-built_in">clone</span>
+</code></pre></section><section class="future" style="top: 178px; display: block;" hidden="" aria-hidden="true"><h2>Remote</h2>
+<pre><code class="hljs"><span class="hljs-comment"># show 出所有的 remote</span>
+<span class="hljs-comment"># origin 預設是你 clone 的來源</span>
+git remote -v
+git remote add &lt;name&gt; &lt;<span class="hljs-built_in">source</span>&gt;
+git remote remove &lt;name&gt;
+git remote <span class="hljs-built_in">set</span>-url &lt;name&gt; &lt;new_source&gt;
+</code></pre></section><section class="future" style="top: 124px; display: none;" hidden="" aria-hidden="true"><h2>Information</h2>
+<pre><code class="hljs"><span class="hljs-comment"># 目前工作區的追蹤狀態</span>
+git status
+
+<span class="hljs-comment"># 所有 commit 紀錄</span>
+<span class="hljs-comment"># HEAD 為當前的 commit</span>
+<span class="hljs-comment"># HEAD^ 為上則 commit</span>
+git <span class="hljs-built_in">log</span>
+
+<span class="hljs-comment"># commit 的變更</span>
+git show &lt;commit&gt;
+</code></pre></section><section class="future" style="top: 110.5px; display: none;" hidden="" aria-hidden="true"><h2>Commit</h2>
+<pre><code class="hljs"><span class="hljs-comment"># 追蹤檔案</span>
+git add &lt;path&gt;
+
+<span class="hljs-comment"># Commit</span>
+git commit -m &lt;message&gt;
+
+<span class="hljs-comment"># 切換版本</span>
+git checkout &lt;commit&gt;
+<span class="hljs-comment"># 單個檔案</span>
+git checkout &lt;file&gt; &lt;commit&gt;
+
+</code></pre></section><section class="future" style="top: 97px; display: none;" hidden="" aria-hidden="true"><h2>Branch</h2>
+<pre><code class="hljs"><span class="hljs-comment"># 查看分支</span>
+<span class="hljs-comment"># 主線叫做 master</span>
+git branch
+
+<span class="hljs-comment"># 新增分支</span>
+git branch &lt;branch_name&gt;
+
+<span class="hljs-comment"># 刪除</span>
+git branch -d &lt;branch_name&gt;
+
+<span class="hljs-comment"># 切換分支</span>
+git checkout &lt;branch_name&gt;
+</code></pre></section><section class="future" style="top: 232px; display: none;" hidden="" aria-hidden="true"><h2>合併 branch (Merge)</h2>
+<pre><code class="hljs"><span class="hljs-comment"># 在 master</span>
+git merge &lt;branch_name&gt;
+</code></pre></section><section class="future" style="top: 125px; display: none;" hidden="" aria-hidden="true"><h2>Conflict</h2>
+<h3>以 PHP 為例</h3>
+<pre><code class="hljs"><span class="hljs-meta">&lt;?php</span>
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+<span class="hljs-comment">// 在 HEAD 中的程式碼</span>
+=======
+<span class="hljs-comment">// 在 branch 中的程式碼</span>
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; branch
+<span class="hljs-meta">?&gt;</span>
+</code></pre></section><section class="future" style="top: 179.5px; display: none;" hidden="" aria-hidden="true"><ol>
+<li>將檔案編輯成目標</li>
+<li><code>git add &lt;name&gt;</code></li>
+<li><code>git commit</code></li>
+<li>完成</li>
+</ol></section><section class="future" style="top: 191.5px; display: none;" hidden="" aria-hidden="true"><h2>Commit 打錯怎麼辦？</h2>
+<pre><code class="hljs"><span class="hljs-comment"># 回復到上則 commit</span>
+git reset HEAD^
+
+<span class="hljs-comment"># 包含檔案內容</span>
+git reset HEAD^ --hard
+</code></pre></section><section class="future" style="top: 124.5px; display: none;" hidden="" aria-hidden="true"><h2>同步遠端版本庫</h2>
+<pre><code class="hljs"><span class="hljs-comment"># 上傳</span>
+<span class="hljs-comment"># 如果遇到衝突，要先 pull</span>
+git push &lt;remote_name&gt; &lt;branch_name&gt;
+
+<span class="hljs-comment"># 強制更新</span>
+git push &lt;remote_name&gt; &lt;branch_name&gt; -f
+
+<span class="hljs-comment"># 下載</span>
+<span class="hljs-comment"># 如果有衝突，處理如同 Merge</span>
+git pull &lt;remote_name&gt; &lt;branch_name&gt;
+</code></pre></section><section class="future" style="top: 283px; display: none;" hidden="" aria-hidden="true"><p><a href="https://backlog.com/git-tutorial/tw/" target="_blank">連猴子都能懂的Git入門指南</a></p></section></section>
+</section>
+
+<section><section><h1>Git</h1></section><section><h2>Get Started</h2>
+    <pre><code class="hljs"><span class="hljs-comment"># 初始化一個版本庫</span>
+    git init
+    
+    <span class="hljs-comment"># 複製遠端的本庫</span>
+    git <span class="hljs-built_in">clone</span>
+    </code></pre></section><section><h2>Remote</h2>
+    <pre><code class="hljs"><span class="hljs-comment"># show 出所有的 remote</span>
+    <span class="hljs-comment"># origin 預設是你 clone 的來源</span>
+    git remote -v
+    git remote add &lt;name&gt; &lt;<span class="hljs-built_in">source</span>&gt;
+    git remote remove &lt;name&gt;
+    git remote <span class="hljs-built_in">set</span>-url &lt;name&gt; &lt;new_source&gt;
+    </code></pre></section><section><h2>Information</h2>
+    <pre><code class="hljs"><span class="hljs-comment"># 目前工作區的追蹤狀態</span>
+    git status
+    
+    <span class="hljs-comment"># 所有 commit 紀錄</span>
+    <span class="hljs-comment"># HEAD 為當前的 commit</span>
+    <span class="hljs-comment"># HEAD^ 為上則 commit</span>
+    git <span class="hljs-built_in">log</span>
+    
+    <span class="hljs-comment"># commit 的變更</span>
+    git show &lt;commit&gt;
+    </code></pre></section><section><h2>Commit</h2>
+    <pre><code class="hljs"><span class="hljs-comment"># 追蹤檔案</span>
+    git add &lt;path&gt;
+    
+    <span class="hljs-comment"># Commit</span>
+    git commit -m &lt;message&gt;
+    
+    <span class="hljs-comment"># 切換版本</span>
+    git checkout &lt;commit&gt;
+    <span class="hljs-comment"># 單個檔案</span>
+    git checkout &lt;file&gt; &lt;commit&gt;
+    
+    </code></pre></section><section><h2>Branch</h2>
+    <pre><code class="hljs"><span class="hljs-comment"># 查看分支</span>
+    <span class="hljs-comment"># 主線叫做 master</span>
+    git branch
+    
+    <span class="hljs-comment"># 新增分支</span>
+    git branch &lt;branch_name&gt;
+    
+    <span class="hljs-comment"># 刪除</span>
+    git branch -d &lt;branch_name&gt;
+    
+    <span class="hljs-comment"># 切換分支</span>
+    git checkout &lt;branch_name&gt;
+    </code></pre></section><section><h2>合併 branch (Merge)</h2>
+    <pre><code class="hljs"><span class="hljs-comment"># 在 master</span>
+    git merge &lt;branch_name&gt;
+    </code></pre></section><section><h2>Conflict</h2>
+    <h3>以 PHP 為例</h3>
+    <pre><code class="hljs"><span class="hljs-meta">&lt;?php</span>
+    &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+    <span class="hljs-comment">// 在 HEAD 中的程式碼</span>
+    =======
+    <span class="hljs-comment">// 在 branch 中的程式碼</span>
+    &gt;&gt;&gt;&gt;&gt;&gt;&gt; branch
+    <span class="hljs-meta">?&gt;</span>
+    </code></pre></section><section><ol>
+    <li>將檔案編輯成目標</li>
+    <li><code>git add &lt;name&gt;</code></li>
+    <li><code>git commit</code></li>
+    <li>完成</li>
+    </ol></section><section><h2>Commit 打錯怎麼辦？</h2>
+    <pre><code class="hljs"><span class="hljs-comment"># 回復到上則 commit</span>
+    git reset HEAD^
+    
+    <span class="hljs-comment"># 包含檔案內容</span>
+    git reset HEAD^ --hard
+    </code></pre></section><section><h2>同步遠端版本庫</h2>
+    <pre><code class="hljs"><span class="hljs-comment"># 上傳</span>
+    <span class="hljs-comment"># 如果遇到衝突，要先 pull</span>
+    git push &lt;remote_name&gt; &lt;branch_name&gt;
+    
+    <span class="hljs-comment"># 強制更新</span>
+    git push &lt;remote_name&gt; &lt;branch_name&gt; -f
+    
+    <span class="hljs-comment"># 下載</span>
+    <span class="hljs-comment"># 如果有衝突，處理如同 Merge</span>
+    git pull &lt;remote_name&gt; &lt;branch_name&gt;
+    </code></pre></section><section><p><a href="https://backlog.com/git-tutorial/tw/" target="_blank">連猴子都能懂的Git入門指南</a></p></section></section>
+
+
         </div>
     </div>
 
