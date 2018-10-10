@@ -1,6 +1,6 @@
 # Teaching Mats
 
-## PPT links:
+## PPT links
 <!-- 1. [Concpets](slides.csie.io/concepts) 
 1. [Practice]()
 1. [Demo]()  
