@@ -168,6 +168,84 @@ str.split("")
 
 {{{  
 
+## 註解、文件
 
+助於理解  
+
+---
+
+過猶不及
+
+``` java
+// 請酌量取用
+```
 
 }}}  
+
+{{{
+
+## Debug
+
+do not afraid, enjoy it.  
+
+---  
+
+有 bug提示 是件幸福的事  
+
+---
+
+## debug tips  
+
+1. 了解錯誤
+2. 大膽假設、小心求證
+
+}}}
+
+{{{
+
+## Hardest part of Programming
+
+![hard](./hardest.jpg)
+
+---
+
+1. 幫東西命名（Naming things）
+2. 解釋自己做什麼（或不做什麼）（Explaining what I do (or don’t do)）
+3. 估計工作完成的時間（Estimating time to complete tasks）
+4. 和別人打交道（Dealing with other people）
+5. 使用別人的程式碼進行工作（Working with someone else’s code）
+
+
+
+}}}
+
+{{{
+
+# Tools
+
+- vs code
+- git
+
+---
+
+## vs code 
+
++ auto-fillin
++ plug-ins
++ shortcut
++ features
+  + gits
+  + debugger
+  + live-sharing
+
+---
+
+## Git 
+
+版本控制
+
+---
+
+[連猴子都懂得Git](https://backlog.com/git-tutorial/tw/ )
+
+}}}
