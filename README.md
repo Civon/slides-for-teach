@@ -1,11 +1,11 @@
 # Teaching Mats
 
 ## PPT links:
-1. [Concpets](slides.csie.io/concepts) 
+<!-- 1. [Concpets](slides.csie.io/concepts) 
 1. [Practice]()
 1. [Demo]()  
-   
-
+    -->
+https://github.com/Civon/slides-for-teach
    
     
 # Reavel.js slide gernator
