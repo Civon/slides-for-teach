@@ -5,7 +5,8 @@
 1. [Practice]()
 1. [Demo]()  
     -->
-https://github.com/Civon/slides-for-teach
+[HERE](https://github.com/Civon/slides-for-teach)
+
    
     
 # Reavel.js slide gernator
