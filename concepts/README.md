@@ -49,7 +49,7 @@ PS: 只有我覺得1.2.3.好像越來越大嗎？
     點選左側欄內 偵錯圖示 > 點擊上方Debugg 旁的播放鍵
     或  更左邊一些的齒輪(設定launch.json)
 
-這時會跳出launch.json檔案
+這時會跳出launch.json檔案  
 PS: 這檔案是告訴VS Code 如何在“這個資料夾”內debug  
 
     檔案應該要長得像這樣．
