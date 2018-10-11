@@ -6,9 +6,16 @@
 
 #### 首先，ＰＰＴ網頁修好了，大家可以在[slides.csie.io/concepts](https://slides.csie.io/concepts)找到它
 
-FIXME
+#### 然後，想補充一些忘記講的～～
+
+1. 希望大家都要有一個Github帳號(Gitlab也可以)
+2. 有看過猴子的可以考慮下載視覺化git流程軟體(e.g. sourse tree, github desktop)，幫助你測試git進階指令
+3. Clean Code 有想到再做就好，不用太刻意、過猶不及；適時的註解會更棒！  
+
+PS: 只有我覺得1.2.3.好像越來越大嗎？
 
 ## Fix VS Code debbuger
+
     問題發生的原因是：目前VS Code的內建debugger console沒辦法處理Java的input．  
   
   為了避免大家狀態不一致，我從頭開始．  
@@ -47,7 +54,14 @@ PS: 這檔案是告訴VS Code 如何在“這個資料夾”內debug
 
     檔案應該要長得像這樣．
     且更改兩處：
-        1. console
-        2. mainClass
+      1. console          // Change to integratedTerminal
+      2. mainClass        // where ur main class in
 
-![launch.json](./launch.jpg)
+![launch.json](./launch.png)
+
+雖然不知道你們能不能成功，反正我是成功了！  
+
+如果覺得這個問題,非常困擾可以上去VS Code 的Github Issue 這個問題～～
+// default debug console can't handle single java file input
+
+說不定隔天就修好了～
