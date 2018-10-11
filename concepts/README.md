@@ -61,7 +61,7 @@ PS: 這檔案是告訴VS Code 如何在“這個資料夾”內debug
 
 雖然不知道你們能不能成功，反正我是成功了！  
 
-如果覺得這個問題,非常困擾可以上去VS Code 的Github Issue 這個問題～～
+如果覺得這個問題,非常困擾可以上去VS Code 的Github Issue 這個問題～～  
 // default debug console can't handle single java file input
 
 說不定隔天就修好了～
